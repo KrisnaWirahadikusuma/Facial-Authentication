@@ -14,7 +14,6 @@ Identity fraud and presentation attacks pose significant security challenges in 
 This project presents a computer vision framework designed to enforce continuous biometric verification during online evaluations. By integrating real-time facial landmark tracking with active liveness checking, the application continuously validates subject authenticity. The system relies on biological eye blink patterns to grant and maintain access authorization, effectively mitigating common bypass vectors without requiring specialized hardware.
 
 ---
-
 ## 🔬 Technical Approach & Architecture
 
 Unlike traditional authentication solutions that rely on heavy deep learning models or proprietary C++ binaries, this system uses a lightweight combination of OpenCV and MediaPipe Face Mesh pipelines.
