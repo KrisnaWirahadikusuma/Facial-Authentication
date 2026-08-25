@@ -30,6 +30,7 @@ To distinguish a live subject from a static presentation attack:
 ### 3. Session State Management
 * **Subject Absence:** If the candidate exits the field of view, an acoustic warning is sounded, and the system prompts an immediate warning state.
 * **Re-identification:** Upon re-entry, the state machine resets the verification window, requiring the candidate to complete a fresh liveness check before access is restored.
+  
 ---
 
 ## 🛠️ Tech Stack & Dependencies
